@@ -16,6 +16,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+// Pipeline Middlewares
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
